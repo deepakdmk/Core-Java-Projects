@@ -3,10 +3,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        MakeArithmeticProgression test = new MakeArithmeticProgression();
-        int[] nums1 = {1, 3, 5,2};
+        TwoSum test = new TwoSum();
+        int[] nums1 = {0,4,3,0};
 
-       System.out.println(test.canMakeArithmetic(nums1)); 
+		int[] answer=test.twoSum(nums1, 0);
+       System.out.println(answer[0] + " " + answer[1]); 
     }
 
 }
